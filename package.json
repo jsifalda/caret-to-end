@@ -1,0 +1,37 @@
+{
+  "name": "caret-to-end",
+  "version": "1.0.0",
+  "description": "Simple function which will move caret(cursor) on the end of inputs - textarea & contenteditable",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && ./node_modules/.bin/babel -e 0 ./src --out-dir ./lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsifalda/caret-to-end.git"
+  },
+  "keywords": [
+    "react",
+    "taplink",
+    "react",
+    "router",
+    "tap",
+    "links",
+    "href",
+    "component"
+  ],
+  "author": "Jiri Sifalda <sifalda.jiri@gmail.com> (http://jsifalda.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/caret-to-end/issues"
+  },
+  "homepage": "https://github.com/jsifalda/caret-to-end#readme",
+  "devDependencies": {
+    "babel": "^5.8.3"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  }
+}
